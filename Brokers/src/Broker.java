@@ -35,7 +35,7 @@ public class Broker {
 		
 		//the good stuff
 		InetAddress inetAddress = InetAddress.getLocalHost();
-		System.out.println("Server IP Address: " + inetAddress.getHostAddress());
+		//System.out.println("Server IP Address: " + inetAddress.getHostAddress());
 		BrokerListening thread = new BrokerListening(broker);
 		thread.start();
 		
